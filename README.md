@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VasilisaPrudius.github.io/rsschool-cv/cv
