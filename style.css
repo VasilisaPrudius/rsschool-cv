@@ -1,0 +1,42 @@
+body {
+    orientation:landscape; 
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.photo {
+    text-align: center;
+}
+
+
+
+.main-contacts {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    right: 1220px;
+    
+}
+
+.contacts {
+    
+}
+
+.links {
+    text-decoration: none;
+}
+
+.header-contacts {
+    text-align: center;
+}
+.about-me-text {
+text-align: justify;
+}
+.basic-information {
+    position:absolute;
+    top: 100px;
+    left: 600px;
+    right: 300px;
+}
+
+text-decoration: none;
