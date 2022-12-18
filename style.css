@@ -7,14 +7,13 @@ body {
     
 }
 
-
-
 .photo {
     text-align: center;
     position: relative;
     left: 5%;
 
 }
+text-decoration: none;
 
 .main-titles {
     text-align: center;
@@ -38,22 +37,21 @@ body {
     
 }
 
-
 .header-contacts {
     text-align: center;
 }
+
 .about-me-text {
 text-align: justify;
 }
+
 .basic-information {
     position:absolute;
     top: 30px;
-    left: 40%;
-    right: 10%;
+    left: 28%;
+    right: 30%;
     
 }
-
-text-decoration: none;
 
 .code-example {
     
@@ -65,21 +63,25 @@ summary::before {
 
 }
 
-
-
-summary::after {
-   
-}
-
 details[open] summary::after {
     content: "-";
 
 }
-.footer {
+
+.logo {
     position: absolute;
-    right: 5%;
-    top: 120%
-    
-    
+    left: 15%;
+    top: 132%
+}
+
+.github {
+    position: absolute;
+    left: 1%;
+    top: 141%
+
+}
+
+.code {
+
 
 }
