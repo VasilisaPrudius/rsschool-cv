@@ -11,6 +11,9 @@ body {
 
 .photo {
     text-align: center;
+    position: relative;
+    left: 5%;
+
 }
 
 .main-titles {
@@ -46,8 +49,29 @@ text-align: justify;
     position:absolute;
     top: 30px;
     left: 40%;
+    right: 10%;
     
 }
 
 text-decoration: none;
 
+.code-example {
+    
+    cursor: pointer;
+}
+summary::before {
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+
+
+summary::after {
+   
+}
+
+details[open] summary::after {
+    content: "-";
+
+}
