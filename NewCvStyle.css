@@ -1,18 +1,19 @@
 * {
     box-sizing: border-box;
-       
+   
 }
 
-#content {
-    width: 1338px;
-    margin: 0 auto 50px;
+.content {
+    margin: auto ;
+    max-width: 500px;
 }
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-image: linear-gradient(105deg, rgba(216, 166, 223, 0.409) 20%, rgba(174, 234, 236 ,0.9) 96%);
-    margin:0px;
-    padding: 0px;
+    background-image: linear-gradient(105deg, rgba(216, 166, 223, 0.409) 20%, rgba(106, 210, 242, 0.798) 96%);
+    
+    
+    
     
 }
  .nav-list {
@@ -27,7 +28,8 @@ body {
     font-size: 15px;
     border: 4px;
     border-radius: 17px;
-    background-color: rgba(137, 137, 137, 0.325);
+    background-color: rgb(104 121 136 / 21%);
+
 
     
  }
@@ -53,11 +55,11 @@ body {
     left: 111px;
 }
 
- .name-part {
+ .name-block {
     padding: 11px;
     border: 4px;
     border-radius: 17px;
-    background-color: rgba(137, 137, 137, 0.325);
+    background-color: rgb(104 121 136 / 21%);
     position: relative;
     width: 327px;
     height: 168px;
@@ -70,31 +72,69 @@ body {
     left: 45px;
  }
  
- .contacts {
+ .phone-number { 
     display: inline-flex;
     position: relative;
     left: 45px;
-    border: 4px;
+    border: 9px;
     border-radius: 17px;
-    background-color: rgba(137, 137, 137, 0.325);
+    background-color: rgb(104 121 136 / 21%);
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    height: 285px;
+    text-align: left;
+    height: 80px;
     width: 365px;
+    top: -36px;
     
 }
 
- .links-contacts {
+ .links-phone-number {
     list-style-type: none;
     text-decoration: none;
  }
 
- .name-contacts {
+ .contacts-name-block {
+    position: relative;
+    top: -30px;
+    left: -135px;
+    width: 102px;
+    
+
+ }
+
+.contacts-list {
     display: inline-flex;
     align-items: center;
+    flex-direction: row;
+    left: 471px;
+    position: relative;
+    top: -18px;
+    margin: auto;
+    padding: 0px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 417px;
+    background-color: blue;
+}
+
+
+.contacts-links {
+    display: inline-flex;
+    position: relative;
+    border: 4px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(104 121 136 / 21%);
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
+    height: 82px;
+    width: 33px;
+    flex: 0 0 90px;
+    padding: 0px;
+    margin: auto;
 }
+
  
  
