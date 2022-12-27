@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.content {
+    margin: auto ;
+    max-width: 1000px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-image: linear-gradient(105deg, rgba(216, 166, 223, 0.409) 20%, rgba(106, 210, 242, 0.798) 96%);
+    
+    
+    
+}
+
+h1 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: normal;
+}
+ .nav-list {
+    display: flex;
+    position: relative;
+    top: 22px;
+    left: 232px;
+    flex-wrap: nowrap;
+    height: 84px;
+    width: 937px;
+    justify-content: flex-start;
+    font-size: 14px;
+    border: 4px;
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    flex-direction: row;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:aliceblue
+}
+
+ .nav-items {
+    display: inline-flex;
+    justify-content: flex-end;
+	align-items: flex-start;
+	list-style: none;
+    flex-direction: row;
+	padding: 0 14px;
+	line-height: 50px;
+    margin: 2px;
+	
+
+ }
+
+ .photo {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    top: -66px;
+    left: -82px;
+}
+
+ .name-block {
+    padding: 11px;
+    border: 4px;
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    position: relative;
+    width: 327px;
+    height: 168px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    height: 168px;
+    width: 365px;
+    top: -46px;
+    left: -143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ 
+ .phone-number { 
+    display: inline-flex;
+    position: relative;
+    left: -146px;
+    border: 9px;
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: left;
+    height: 80px;
+    width: 365px;
+    top: -36px;
+    
+}
+
+ .links-phone-number {
+    list-style-type: none;
+    text-decoration: none;
+ }
+
+.contacts-list {
+    left: -464px;
+    position: relative;
+    top: -18px;
+    margin: auto;
+    padding: 0px;
+    width: 366px;
+}
+
+
+.contacts-links {
+    display: inline-flex;
+    position: relative;
+    border: 4px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(104, 121, 136, 0.21);
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 62px;
+    flex: 0 0 90px;
+    padding: 0px;
+    margin: auto;
+    width: 62px;
+}
+
+ 
+.about-me-block {
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    width: 366px;
+    padding: 13px;
+    left: -463px;
+    position: relative;
+    text-align: justify;
+    top: -10px;
+}
+
+.work-experience-block {
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    width: 849px;
+    position: relative;
+    left: 187px;
+    top: -593px;
+    padding: 26px;
+}
+
+.skills-block {
+    display: block;
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    width: 849px;
+    height: 103px;
+    position: relative;
+    left: 191px;
+    top: -573px;
+}
+.skills-name {
+    padding-left: 41px;
+    position: relative;
+    top: 35px;
+    left: 47px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1;
+    align-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    left: 379px;
+    width: 259px;
+    height: 68px;
+    top: -25px;
+}
+
+.languages-block {
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    padding: 26px;
+    position: relative;
+    top: -561px;
+    width: 849px;
+    left: 193px;
+}
+
+.education-block {
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    padding: 26px;
+    position: relative;
+    top: -547px;
+    width: 849px;
+    left: 193px;
+}
+
+.code-example-block {
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    padding: 26px;
+    position: relative;
+    top: -536px;
+    width: 849px;
+    left: 194px;
+    
+}
+
+.footer {
+    display: flex;
+    border-radius: 17px;
+    background-color: rgb(104 121 136 / 21%);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 397px;
+    height: 96px;
+    position: relative;
+    right: -465px;
+
+}
