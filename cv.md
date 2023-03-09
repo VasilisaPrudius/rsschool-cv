@@ -11,3 +11,7 @@ Beginner front-end developer with a huge desire to learn and develop in this dir
 ## Skills
 Git
 JavaScript
+
+## Code examples
+
+## English language level - B1
